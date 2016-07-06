@@ -1,0 +1,62 @@
+//
+//  ERP-Prefix.pch
+//  erp
+//
+//  Created by liudong on 15/9/16.
+//  Copyright (c) 2015年 centersoft. All rights reserved.
+//
+
+#ifndef erp_ERP_Prefix_pch
+#define erp_ERP_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+
+
+    #ifdef DEBUG // 处于开发阶段
+    #define MyLog(...) NSLog(__VA_ARGS__)
+    #else // 处于发布阶段
+    #define MyLog(...)
+    #endif
+
+
+    #define HLSystemVersion ([[[UIDevice currentDevice] systemVersion] floatValue])
+
+    #define MTColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+    #define RGBA(r, g, b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+    #define MyGlobalBg MTColor(230, 230, 230)
+
+    #define CSGloableBgColor MTColor(231,227,231)
+    #define MyScreenW [UIScreen mainScreen].bounds.size.width
+    #define MyScreenH [UIScreen mainScreen].bounds.size.height
+
+    #define     TLURL(urlString)    [NSURL URLWithString:urlString]
+    #define     DEFAULT_AVATAR_PATH    @"default_head"
+
+    #define ISNULL(string) string?string:@""
+
+    #define MyPadding 10
+
+    #define MyNotificationCenter [NSNotificationCenter defaultCenter]
+
+    #define userDefault [NSUserDefaults standardUserDefaults]
+
+    #define MyTextFont14 [UIFont systemFontOfSize:14.0f]
+    #define MyTextFont15 [UIFont systemFontOfSize:15.0f]
+    #define MyTextFont16 [UIFont systemFontOfSize:16.0f]
+
+    #define kNetworkNotReachability ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus)
+
+    // 随机色
+    #define HLRandomColor MTColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+#endif

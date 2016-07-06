@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="black2">#ffeeeeee</color>
+
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+
+    <!-- 头部点击时的颜色 -->
+    <color name="steelblue">#55555555</color>
+
+    <!-- titlebar #378EF5 #232325 -->
+    <color name="titlebar">#232736</color>
+
+    <!-- 页面背景 -->
+    <color name="bgcolor">#EFEFEF</color>
+
+    <!-- 内容文本颜色 -->
+    <color name="textcolor">#464646</color>
+
+    <!-- CircleImage -->
+    <color name="circleimage">#7F8286</color>
+
+    <!-- bg_fybx -->
+    <color name="bg_fybx">#378EF5</color>
+
+    <!-- bg_fybx -->
+    <color name="bg_fybx_">#0D76F0</color>
+
+    <!-- bg_xstj -->
+    <color name="bg_xstj">#9455F7</color>
+
+    <!-- bg_xstj_ -->
+    <color name="bg_xstj_">#7C34FA</color>
+
+    <!-- bg_xjtj -->
+    <color name="bg_xjtj">#747AE8</color>
+
+    <!-- bg_xjtj_ -->
+    <color name="bg_xjtj_">#5A5FF2</color>
+
+    <!-- bg_cgsq -->
+    <color name="bg_cgsq">#10C7DE</color>
+
+    <!-- bg_cgsq_ -->
+    <color name="bg_cgsq_">#088E9D</color>
+
+    <!-- bg_fytj -->
+    <color name="bg_fytj">#FFFFFF</color>
+
+    <!-- bg_fytj_ -->
+    <color name="bg_fytj_">#CEC4C4</color>
+
+    <!-- bg_lrtj -->
+    <color name="bg_lrtj">#FF657B</color>
+
+    <!-- bg_lrtj_ -->
+    <color name="bg_lrtj_">#F52948</color>
+
+    <!-- bg_xxtz -->
+    <color name="bg_xxtz">#84D318</color>
+
+    <!-- bg_xxtz_ -->
+    <color name="bg_xxtz_">#50830D</color>
+
+    <!-- bg_ys -->
+    <color name="bg_ys">#F7B610</color>
+
+    <!-- bg_ys_ -->
+    <color name="bg_ys_">#8E6A0A</color>
+
+    <!-- bg_yf -->
+    <color name="bg_yf">#FF864A</color>
+
+    <!-- bg_yf_ -->
+    <color name="bg_yf_">#A74617</color>
+    <!-- 列表页面背景 -->
+    <color name="allbg">#E1E1E1</color>
+    <color name="text_color_checked">#ffffff</color>
+    <color name="text_color_unchecked">#666666</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grayLine">#C3C3C3</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+</resources>
